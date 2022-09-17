@@ -1,0 +1,39 @@
+body {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .container {
+    border: 1px solid;
+    height: 500px;
+    margin-top: 20px;
+  }
+  
+  #unit-input{
+    border: solid 1px;
+    height: 60px;
+    width: 90px;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .convert-dp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 1px;
+  }
+  
+  .unit-dp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  

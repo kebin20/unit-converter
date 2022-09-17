@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <div class="convert-dp">
+  <h1>Metric Unit Conversion</h1>
+  <input type="number" id="unit-input" name="unit" required
+       minlength="1">
+  <button class="convert-btn">Convert</button>
+    </div>
+  <div class="unit-dp">
+    <div class="length-dp">
+      <h3>Length Meter/Feet</h3>
+      <span id="mtf"></span><span id="ftm"></span>
+    </div>
+    <div class="volume-dp">
+      <h3>Volume Liters/Gallon</h3>
+      <span id="ltg"></span><span id="gtl"></span>
+    </div>
+    <div class="mass-dp">
+      <h3>Mass Kilograms/Pounds</h3>
+      <span id="ktp"></span><span id="ptk"></span>
+    </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
